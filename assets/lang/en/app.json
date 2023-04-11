@@ -1,6 +1,6 @@
 {
   "app": {
-    "basic": {
+    "basic":  {
       "function": {
         "auto": {
           "title": "automatic",
@@ -25,8 +25,19 @@
       "setting": "Setup",
       "app_exit": "Click again to exit the program"
     },
+    "media": {
+      "open": "check",
+      "delete": "delete",
+      "fileInfo": "detailed information",
+      "uploadFile": "upload files",
+      "tab": {
+        "local": "local",
+        "cloud": "cloud image storage"
+      }
+    },
     "home": {
       "scancode": "Scan Code",
+      "takeLook": "look around",
       "needAccount": "This function requires an account, please log in first",
       "tabs": {
         "activities": "Website dynamics",
@@ -54,8 +65,6 @@
       "networkError": "The application is not connected to the network, and the program relies on online services"
     },
     "guide": {
-      "next": "Next step",
-      "back": "Previous Step",
       "endNext": "Complete",
       "agreement": {
         "title": "Usage protocol",
@@ -75,6 +84,10 @@
             "name": "Camera",
             "describe": "It is mainly used for shooting or recording multimedia, and the media content is mainly evidence."
           },
+          "videos": {
+            "name": "video",
+            "describe": "read external video from device"
+          },
           "1": {
             "name": "photo album",
             "describe": "Read the contents of the album, with the purpose evidence as the main evidence"
@@ -89,11 +102,11 @@
           }
         },
         "status": {
+          "-1": "unknown",
           "0": "Authorization succeeded",
           "1": "Unauthorized",
           "2": "Permanent Rejection",
-          "3": "restricted",
-          "-1": "unknown"
+          "3": "restricted"
         }
       },
       "agree": "I agree with the above"
@@ -104,6 +117,10 @@
         "account": {
           "title": "Accounts",
           "describe": "Manage BFBAN account information"
+        },
+        "media": {
+          "title": "media library",
+          "describe": "create and store files in BFBAN"
         },
         "website": {
           "title": "Website address",
@@ -200,3 +217,4 @@
     }
   }
 }
+
